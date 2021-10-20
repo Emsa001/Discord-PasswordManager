@@ -11,10 +11,8 @@ npm install
 ```
 
 ## Usage
-
-```javascript
 Change the PIN and your bot token in config.json
-
+```javascript
 {
   "prefix": "!",
   "pin": "1234",
