@@ -19,6 +19,15 @@ Change the PIN and your bot token in config.json
   "token": "token"
 }
 ```
+Complete the database informations in [./database/db.js](https://github.com/Emsa001/Discord-PasswordManager/blob/main/database/db.js)
+```javascript
+const { Sequelize } = require("sequelize");
+
+module.exports = new Sequelize("db_name", "db_user", "db_password", {
+  host: "db_host",
+  dialect: "mysql",
+});
+```
 After that run the but using
 ```
 node index.js
