@@ -1,6 +1,6 @@
 # Discord Password Manager
 
-Discord Password Manager is a discord bot created [node.js](https://nodejs.org/en/) for password management
+Discord Password Manager is a discord bot created in [node.js](https://nodejs.org/en/)
 
 ## Installation
 
